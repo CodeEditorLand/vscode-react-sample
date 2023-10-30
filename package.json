@@ -1,64 +1,64 @@
 {
-  "name": "react-todo",
-  "version": "0.0.1",
-  "private": "false",
-  "description": "Simple todo application to demo react and es6 in VS Code",
-  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
-  "bugs": {
-    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Nikola Hristov",
-    "email": "nikola@nikolahristov.tech",
-    "url": "https://nikolahristov.tech"
-  },
-  "publisher": "playform",
-  "type": "module",
-  "main": "webpack.config.js",
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --config webpack.config.js --open",
-    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts",
-    "serve": "node server/server.js"
-  },
-  "dependencies": {
-    "body-parser": "1.20.2",
-    "classnames": "2.3.2",
-    "express": "4.18.2",
-    "file-loader": "6.2.0",
-    "imports-loader": "4.0.1",
-    "jquery": "3.7.1",
-    "lodash": "4.17.21",
-    "material-ui": "1.0.0-beta.46",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-tap-event-plugin": "3.0.3",
-    "resolve-url-loader": "5.0.0",
-    "tether": "2.0.0",
-    "url-loader": "4.1.1"
-  },
-  "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-loader": "9.1.3",
-    "babel-preset-es2015": "6.5.0",
-    "babel-preset-react": "6.24.1",
-    "babel-preset-stage-0": "6.24.1",
-    "css-loader": "6.8.1",
-    "html-webpack-plugin": "5.5.3",
-    "node-sass": "9.0.0",
-    "promise": "8.3.0",
-    "sass-loader": "13.3.2",
-    "style-loader": "3.3.3",
-    "typescript-esbuild": "0.3.1",
-    "webpack": "5.89.0",
-    "webpack-dev-server": "4.15.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "react-todo",
+	"version": "0.0.1",
+	"private": "false",
+	"description": "Simple todo application to demo react and es6 in VS Code",
+	"homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@nikolahristov.tech",
+		"url": "https://nikolahristov.tech"
+	},
+	"publisher": "playform",
+	"type": "module",
+	"main": "webpack.config.js",
+	"scripts": {
+		"build": "webpack --config webpack.config.js",
+		"dev": "webpack-dev-server --config webpack.config.js --open",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
+		"serve": "node server/server.js"
+	},
+	"dependencies": {
+		"body-parser": "1.20.2",
+		"classnames": "2.3.2",
+		"express": "4.18.2",
+		"file-loader": "6.2.0",
+		"imports-loader": "4.0.1",
+		"jquery": "3.7.1",
+		"lodash": "4.17.21",
+		"material-ui": "1.0.0-beta.46",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-tap-event-plugin": "3.0.3",
+		"resolve-url-loader": "5.0.0",
+		"tether": "2.0.0",
+		"url-loader": "4.1.1"
+	},
+	"devDependencies": {
+		"babel-core": "6.26.3",
+		"babel-loader": "9.1.3",
+		"babel-preset-es2015": "6.5.0",
+		"babel-preset-react": "6.24.1",
+		"babel-preset-stage-0": "6.24.1",
+		"css-loader": "6.8.1",
+		"html-webpack-plugin": "5.5.3",
+		"node-sass": "9.0.0",
+		"promise": "8.3.0",
+		"sass-loader": "13.3.2",
+		"style-loader": "3.3.3",
+		"typescript-esbuild": "0.3.1",
+		"webpack": "5.89.0",
+		"webpack-dev-server": "4.15.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
