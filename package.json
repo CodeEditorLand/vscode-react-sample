@@ -1,33 +1,11 @@
 {
-	"name": "react-todo",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Simple todo application to demo react and es6 in VS Code",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandReactSample#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandReactSample/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandReactSample.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "🌆 — Land —",
 		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
 		"url": "HTTPS://Land.PlayForm.Cloud"
 	},
-	"type": "module",
-	"main": "webpack.config.js",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"build": "webpack --config webpack.config.js",
-		"dev": "webpack-dev-server --config webpack.config.js --open",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"serve": "node server/server.js"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandReactSample/issues"
 	},
 	"dependencies": {
 		"body-parser": "1.20.2",
@@ -41,6 +19,7 @@
 		"tether": "2.0.0",
 		"url-loader": "4.1.1"
 	},
+	"description": "Simple todo application to demo react and es6 in VS Code",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
@@ -50,7 +29,28 @@
 		"sass-loader": "14.2.1",
 		"style-loader": "4.0.0"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandReactSample#readme",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "webpack.config.js",
+	"name": "react-todo",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandReactSample.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "webpack --config webpack.config.js",
+		"dev": "webpack-dev-server --config webpack.config.js --open",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"serve": "node server/server.js"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
