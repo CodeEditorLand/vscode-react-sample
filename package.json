@@ -1,4 +1,12 @@
 {
+	"name": "react-todo",
+	"description": "Simple todo application to demo react and es6 in VS Code",
+	"main": "webpack.config.js",
+	"scripts": {
+		"build": "webpack --config webpack.config.js",
+		"dev": "webpack-dev-server --config webpack.config.js --open",
+		"serve": "node server/server.js"
+	},
 	"dependencies": {
 		"body-parser": "^1.15.0",
 		"classnames": "^2.2.3",
@@ -11,19 +19,11 @@
 		"tether": "^1.2.0",
 		"url-loader": "^0.5.7"
 	},
-	"description": "Simple todo application to demo react and es6 in VS Code",
 	"devDependencies": {
 		"css-loader": "^0.23.1",
 		"node-sass": "^3.4.2",
 		"promise": "^7.1.1",
 		"sass-loader": "^3.2.0",
 		"style-loader": "^0.13.1"
-	},
-	"main": "webpack.config.js",
-	"name": "react-todo",
-	"scripts": {
-		"build": "webpack --config webpack.config.js",
-		"dev": "webpack-dev-server --config webpack.config.js --open",
-		"serve": "node server/server.js"
 	}
 }
