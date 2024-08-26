@@ -14,7 +14,6 @@
 	"description": "Simple todo application to demo react and es6 in VS Code",
 	"devDependencies": {
 		"css-loader": "7.1.2",
-		"node-sass": "9.0.0",
 		"promise": "8.3.0",
 		"sass-loader": "16.0.1",
 		"style-loader": "4.0.0"
