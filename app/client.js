@@ -1,10 +1,8 @@
-import ReactDOM from 'react-dom';
-import React from 'react'; // necessary to import for compilation
-import App from './components/App';
+import React from "react"; // necessary to import for compilation
+import ReactDOM from "react-dom";
 
-require('./globals.scss');
+import App from "./components/App";
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('app')
-);
+require("./globals.scss");
+
+ReactDOM.render(<App />, document.getElementById("app"));
